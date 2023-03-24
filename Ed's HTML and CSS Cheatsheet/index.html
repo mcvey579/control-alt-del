@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed's HTML & CSS Cheatsheet</title>
+    <link href="resources/css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Ed's HTML & CSS Cheatsheet</h1>
+    <table border="1" color="black">
+        <thead>
+            <tr>
+                <th colspan="3">HTML Tags - General</th>
+            </tr>
+            <tr>
+                <th>Tag</th>
+                <th>Name, Usage or Example</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span>&lt;!DOCTYPE html&gt;</span></td>
+                <td>First line of code in HTML as shown to left</td>
+                <td>Used to let the browser know what version of HTML to expect</td>
+            </tr>
+            <tr>
+                <td><span>&lt;html&gt;</span></td>
+                <td>HTML</td>
+                <td>Used to encapsulate everything else below within the page</td>
+            </tr>
+            <tr>
+                <td><span>&lt;body&gt;</span></td>
+                <td>Body</td>
+                <td>Any visible content of page goes between tags</td>
+            </tr>
+            <tr>
+                <td><span>&lt;h1&gt;</span></td>
+                <td>Heading & Classification</td>
+                <td>Used to mark headers level 1-6 (largest to smallest)</td>
+            </tr>
+            <tr>
+                <td><span>&lt;p&gt;</span></td>
+                <td>Paragraph</td>
+                <td>Used to encapsulate a paragraph</td>
+            </tr>
+            <tr>
+                <td><span>&lt;head&gt;</span></td>
+                <td>Head</td>
+                <td>Information about the webpage and link to CSS and resources along with title</td>
+            </tr>
+            <tr>
+                <td><span>&lt;title&gt;</span></td>
+                <td>Title</td>
+                <td>Appears within the head, usually the name of the page or site</td>
+            </tr>
+            <tr>
+                <td><span>&lt;header&gt;</span></td>
+                <td>Header</td>
+                <td>Should be the first visible tags, header info and graphics should be contained within</td>
+            </tr>
+            <tr>
+                <td><span>&lt;nav&gt;</span></td>
+                <td>Nav</td>
+                <td>Should contain the navagation area info and links toward the top of the page</td>
+            </tr>
+            <tr>
+                <td><span>&lt;main&gt;</span></td>
+                <td>Main</td>
+                <td>Everything within that is considered main information of the site should be contained here</td>
+            </tr>
+            <tr>
+                <td><span>&lt;footer&gt;</span></td>
+                <td>Footer</td>
+                <td>Everything you want within the footer should be contained here</td>
+            </tr>
+            <tr>
+                <td><span>&lt;section&gt;</span></td>
+                <td>Section</td>
+                <td>Defines areas on page such as chapters, headings, areas of the site with the same theme</td>
+            </tr>
+            <tr>
+                <td><span>&lt;article&gt;</span></td>
+                <td>Article</td>
+                <td>Holds info that makes sense on its own such as articles, blogs, comments, etc…</td>
+            </tr>
+            <tr>
+                <td><span>&lt;aside&gt;</span></td>
+                <td>Aside</td>
+                <td>Info related to the main content but not required to understand the main article</td>
+            </tr>
+            <tr>
+                <td><span>&lt;figure&gt;</span></td>
+                <td>Figure</td>
+                <td>Used to hold pictures or media related to the main article</td>
+            </tr>
+            <tr>
+                <td><span>&lt;figcaption&gt;</span></td>
+                <td>Caption</td>
+                <td>Used to caption item within the &lt;figure&gt; tags, &lt;figcaption&gt; tags are placed within the &lt;figure&gt; tags</td>
+            </tr>
+            <tr>
+                <td><span>&lt;span&gt;</span></td>
+                <td>Span</td>
+                <td>Used inline text to differentiate it from the rest of the text or as a way of adding specific CSS elements</td>
+            </tr>
+            <tr>
+                <td><span>&lt;div&gt;</span></td>
+                <td>Div</td>
+                <td>Used to group a set of elements to style together, used with id= or class= attributes</td>
+            </tr>
+            <tr>
+                <td><span>&lt;em&gt;</span></td>
+                <td>Italicizes text</td>
+                <td>Surround text with these tags to italicize text</td>
+            </tr>
+            <tr>
+                <td><span>&lt;strong&gt;</span></td>
+                <td>Makes text bold</td>
+                <td>Surround text with these tags to bold text</td>
+            </tr>
+            <tr>
+                <td><span>&lt;br&gt;</span></td>
+                <td>Break</td>
+                <td>Used to create a line break on page or to space items apart</td>
+            </tr>
+            <tr>
+                <td><span>&lt;ol&gt;</span></td>
+                <td>Ordered List</td>
+                <td>Tags used to encapsulate an ordered list (1, 2, 3...), used with &lt;li&gt; to list items within ordered list</td>
+            </tr>
+            <tr>
+                <td><span>&lt;ul&gt;</span></td>
+                <td>Unordered List</td>
+                <td>Tags used to encapsulate an unordered list (with bullets), used with &lt;li&gt; to list items within unordered list</td>
+            </tr>
+            <tr>
+                <td><span>&lt;li&gt;</span></td>
+                <td>List</td>
+                <td>Tags used to encapsulate list types to give lists individual items inside of either Ordered or Unordered List tags</td>
+            </tr>
+            <tr>
+                <td><span>&lt;img&gt;</span></td>
+                <td>&lt;img src=”insert link here”/&gt;</td>
+                <td>Used to add images to a website with link to resource. &lt;img src=”insert link here”/&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;video&gt;</span></td>
+                <td>Video</td>
+                <td>Used to add video to a website with link to resource. &lt;video src=”insert link here”/&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;embed&gt;</span></td>
+                <td>Embed</td>
+                <td>A less specific way to add an image or video without specifying type. &lt;embed src="insert link here"/&gt;</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Height=”insert value here”</td>
+                <td>Used to add dimensional data to image</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Width=”insert value here”</td>
+                <td>Used to add dimensional data to image</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>controls</td>
+                <td>Enter within video element to give user controls to play media</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>autoplay</td>
+                <td>Enter within video element to autoplay the video</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>loop</td>
+                <td>Enter within video element to loop video</td>
+            </tr>
+            <tr>
+                <td><span>&lt;a&gt;</span></td>
+                <td>Anchor</td>
+                <td>Used to create links to other elements. &lt;a href="location of link"&gt;Anchor&lt;/a&gt; (this would link the word "Anchor" to the link you provided in "href")</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>target="_blank"</td>
+                <td>Adding this element to an anchor opens link in new tab or window</td>
+            </tr>
+            <tr>
+                <td><span>&lt;!-- comment --&gt;&gt;</span></td>
+                <td>Invisible Comment</td>
+                <td>&lt;!-- notes or code within these tags will not appear--&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;table&gt;</span></td>
+                <td>Table</td>
+                <td>Used as the beginning and end tags of one table. &lt;table&gt;"Encapsulate tags on one table"&lt;/table&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;thead&gt;</span></td>
+                <td>Table Head</td>
+                <td>Used only to specify the data to mark each column at the top of a table, give them a name. &lt;thead&gt;"enclose the table head tags within these tags"&lt;/thead&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;tr&gt;</span></td>
+                <td>Table Row</td>
+                <td>Adds a table row. &lt;tr&gt;"Table Row"&lt;/tr&gt;</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>rowspan="#"</td>
+                <td>enter a number to span multiple rows</td>
+            </tr>
+            <tr>
+                <td><span>&lt;th&gt;</span></td>
+                <td>Table Header</td>
+                <td>Heading info is added within this element. &lt;th&gt;"Table Header Info"&lt;/th&gt;</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>colspan="#"</td>
+                <td>Center a number to span multiple columns</td>
+            </tr>
+            <tr>
+                <td><span>&lt;tbody&gt;</span></td>
+                <td>Table Body</td>
+                <td>A tables main body of tags and information is contained within these tags-usually under &lt;thead&gt; data. &lt;tbody&gt;"A tables main body of info"&lt;/tbody&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;td&gt;</span></td>
+                <td>Table Data</td>
+                <td>Add info within these tags to add data into the cells of a table. If more than one column of data, then enter multiple &lt;td&gt;'s consecutively. &lt;td&gt;"add data here"&lt;/td&gt;</td>
+            </tr>
+            <tr>
+                <td><span>&lt;tfoot&gt;</span></td>
+                <td>Table Foot</td>
+                <td>Used only to specify the ending line of data. &lt;tfoot&gt;"add tables foot data within these tags"&lt;/tfoot&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="2" color="darkgray">
+        <thead>
+            <tr>
+                <th colspan="3">CSS Selectors and Properties</th>
+            </tr>
+            <tr>
+                <th>Selectors and Rules</th>
+                <th>Example </th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universal Selector</td>
+                <td><span>* {}</span></td>
+                <td>Applies rule to all elements of page</td>
+            </tr>
+            <tr>
+                <td>class selector</td>
+                <td>in HTML tag add "class='name'", in CSS specify class as ".name" and add rule</td>
+                <td>Allows you to add rule to specific classes of items (multiple names can be added in HTML tag seperated by a space and selected by individual names in CSS)</td>
+            </tr>
+            <tr>
+                <td>id selector</td>
+                <td>in HTML tag add "id='name'", in CSS specify id as "#name" and add rule</td>
+                <td>can only be used once per page to add single value and override class selectors</td>
+            </tr>
+            <tr>
+                <td>HTML Attribute</td>
+                <td>in HTML href or img can be referenced in css with square brackets[] </td>
+                <td>if more than one instance of an attribute in a page such as an image, in css would specify with "a[src*='name'] to only specify the difference in the file names </td>
+            </tr>
+            <tr>
+                <td>Psuedo elements</td>
+                <td><span>p:first-letter {}</span></td>
+                <td>first-letter and first-line are examples of psuedo elements. Add an ":" at the end of a selector to specify </td>
+            </tr>
+            <tr>
+                <td>Psuedo class</td>
+                <td>Used for items that change after an interaction such as clicked file link, or button is pushed</td>
+                <td>to select in CSS, add a "p:" before the type of action you want to style. Ex: p:focus p:visited p:disabled p:active p:hover .</td>
+            </tr>
+            <tr>
+                <td>Chaining Selectors</td>
+                <td><span>h1.special {}</span></td>
+                <td>Used to select specific elements within a class, in this instance we would be selecting to style a "Special" class inside of header element</td>
+            </tr>
+            <tr>
+                <td>Descendant Combinators</td>
+                <td><span>.main-list li {}</span></td>
+                <td>The ability to select nested inside other HTML elements, in this example selecting listed items inside of a specific list with a class (has to be direct descendant)</td>
+            </tr>
+            <tr>
+                <td>Combining Selectors</td>
+                <td><span>h1, .menu {}</span></td>
+                <td>instead of h1 {} and .menu {} having the same color rule, combine the selector and add the same rule to both to avoid repetition</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td><span>font-family: georgia, times, serif;</span></td>
+                <td>defines the typeface, can include multiple fonts by name seperated by a comma in case the first font cannot be loaded. Link to online source by adding &lt;link href="fonts.fonts.com" rel="font"&gt;, then in CSS use the name used in "rel".</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td><span>font-size: 12px;</span></td>
+                <td>controls the size of the text in either pixels(px), percentages of the default 16px size (16px=100%, 32px=200%), or by em (relative size of parent element 32px=2em)</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td><span>font-weight: bold;</span></td>
+                <td>defines how thick or thin text is diplayed, accepted values are "normal" or "bold"</td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td><span>font-style: italic;</span></td>
+                <td>Italicizes text when set to "italic", otherwise set to "normal"</td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td><span>line-height: 1.4em;</span></td>
+                <td>Controls the vertical spacing between lines of text. Values are in em, usually around 1.4em, increase or decrease as preferred</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td><span>text-align: left;</span></td>
+                <td>places text in the left right or center, accepted values are "left", "right", "center" or "justify"</td>
+            </tr>
+            <tr>
+                <td>word-spacing</td>
+                <td><span>word-spacing: 0.2em;</span></td>
+                <td>Sets the space between words. Values can be in pixels (px) or in (em) ex: 0.2em</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td><span>letter-spacing: 0.5em;</span></td>
+                <td>Sets the space between the letters. Values can be in pixels (px) or in (em) 0.5em</td>
+            </tr>
+            <tr>
+                <td>@font-face</td>
+                <td>Example:
+                    <span>@font-face {
+                        font-family: 'MyParagraphFont';<br>
+                        src: url('fonts/Roboto.woff2') format('woff2'),<br>
+                            url('fonts/Roboto.woff') format('woff'),<br>
+                            url('fonts/Roboto.ttf') format('truetype')
+                    }</span>
+                </td>
+                <td>Used to download fonts and have them be part of our website without using a link. Download fonts, insert them into your linked fonts folder in your resources. Create a font family on the first line and give it a name, then add src urls to the fonts. Once added you can reference it like other installed fonts.</td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td><span>color: red;</span></td>
+                <td>defines the color of the text by color name, hexidecimal, RGB and HSL colors</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td><span>background-color: red;</span></td>
+                <td>defines the color behind the text by color name, hexidecimal, RGB and HSL colors</td>
+            </tr>
+            <tr>
+                <td>opacity</td>
+                <td><span>opacity: 0.5;</span></td>
+                <td>makes elements transparent, accepted values between 0.0(no opacity) to 1.0(fully opaque)</td>
+            </tr>
+            <tr>
+                <td>background-image</td>
+                <td><span>background-image: url("images/tulip.gif")</span></td>
+                <td>sets background of an element with an image, ex: set with url("images/sample.jpeg")</td>
+            </tr>
+            <tr>
+                <td>!important</td>
+                <td><span>color: blue !important</span></td>
+                <td>overrides any style, shouldnt be used unless necessary, hard to override. Add after any property (ex: color: blue !important)</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td><span>padding: 10px 5px 10px 15px;</span></td>
+                <td>amount of space between content area and border set in pixels (px). </td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td><span>border: 10px 5px 10px 15px;</span></td>
+                <td>thickness and style surrounding content area and padding</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td><span>margin: 10px auto 10px auto;</span></td>
+                <td>amount of area between outside edge and border of the element</td>
+            </tr>
+            <tr>
+                <td>Shorthand edge values</td>
+                <td></td>
+                <td>For padding, border and margin= 1 value=1 value for all sides, 2 values= first value for top and bottom, second value for sides, 3 values= first value for top, second for sides, third for bottom, 4 values= values entered clockwise starting from top position</td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td><span>border: 3px solid coral;</span></td>
+                <td>Line surrounding element, values added are width(defined in px), style (solid, dotted, dashed, double, groove, ridge, inset, outset, hidden/none) and color</td>
+            </tr>
+            <tr>
+                <td>border-radius</td>
+                <td><span>border-radius: 5px; (or 50%)</span></td>
+                <td>Sets the corners of a border into a curve in the amount of pixels instucted, or adjusting it with percentage amount with amount equaling the size. A border has four corners, so setting a value of 50% would create a circle because each corner is up to 50% of the images size</td>
+            </tr>
+            <tr>
+                <td>padding-top/right/bottom/left)</td>
+                <td><span>padding-top: 10px;</span></td>
+                <td>Sets specific amounts of padding per instruction given in pixels and side indicated (Can be used instead of padding shorthand)</td>
+            </tr>
+            <tr>
+                <td>margin-top/right/bottom/left</td>
+                <td><span>margin-top: 15px</span></td>
+                <td>Sets specific amound of space outside of the margin in pixels and side indicated (Can be used instead of padding shorthand). Using an "auto" element here will in place of a side size will center it within its containing element. Note: horizontal margins add together, vertical margins do not and will assume the largest of the two values.</td>
+            </tr>
+            <tr>
+                <td>min-height/width max-height/width</td>
+                <td><span>min-width: 300px;
+                    max-height: 150px;</span></td>
+                <td>Places limits of properties of elements box can be viewed depending on differing displays/screen size</td>
+            </tr>
+            <tr>
+                <td>overflow</td>
+                <td><span>overflow: scroll;</span></td>
+                <td>Controls what happens to content that spills outside its box. Values are Hidden-overflow data will be hidden from view, scroll-scrollbar will be added so additional content can be viewed, visible-overflow data will be visible outside its element</td>
+            </tr>
+            <tr>
+                <td>visibility</td>
+                <td><span>visibility: hidden;</span></td>
+                <td>Elements visibility can be adjusted by 3 values, hidden-hides the element, visible-displays element, collapse-collapses element.</td>
+            </tr>
+            <tr>
+                <td>box-sizing</td>
+                <td><span>box-sizing: content-box;</span></td>
+                <td>Controls the type of box model used. Default is content-box: affected by thickness and padding, border-box: height and width remain fixed, border and padding included inside</td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td><span>position: static;</span></td>
+                <td>Allows you to specify the position of an element. Values are <span>static</span>-default, <span>relative</span>-moves an element from where they would normally be in pixels or percentage, using top bottom left or right, <span>absolute</span>-element no longer tied to normal flow of the rest of the elements, adjusted using directionals, <span>fixed</span>-positions element in relation to browser window, adjusted using directionals. </td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td><span>z-index: 10;</span></td>
+                <td>Controls the order in which overlapping boxes appear or what sits on top of what. Accepts values by number, highest numbers equal what box sits on top, lowest on bottom</td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td><span>display: inline;</span></td>
+                <td>Allows you to control how a element flows vertically or horizontally in a document, a feature often used in navigation bars. Values accepted are <span>inline</span>-causes block level element to act like an inline element. <span>block</span>-causes an inline element to act like a block-level element. <span>inline-block</span>-causes block level element to flow like an inline element while retaining features of a block level element. <span>none</span>-hides element from page</td>
+            </tr>
+        
+    </table>
+</body>
+</html>
